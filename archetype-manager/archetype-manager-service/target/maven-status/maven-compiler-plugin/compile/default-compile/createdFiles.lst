@@ -1,0 +1,6 @@
+com\archetype\service\Impl\ItemCatServiceImpl.class
+com\archetype\service\PictureService.class
+com\archetype\service\ItemCatService.class
+com\archetype\service\Impl\ItemServiceImpl.class
+com\archetype\service\ItemService.class
+com\archetype\service\Impl\PictureServiceImpl.class

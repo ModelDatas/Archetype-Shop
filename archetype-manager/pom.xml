@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.archetype</groupId>
+		<artifactId>archetype-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>archetype-manager</artifactId>
+	<packaging>pom</packaging>
+
+	<!-- 依赖管理 -->
+	<dependencies>
+		<dependency>
+			<groupId>com.archetype</groupId>
+			<artifactId>archetype-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>archetype-manager-pojo</module>
+		<module>archetype-manager-mapper</module>
+		<module>archetype-manager-service</module>
+		<module>archetype-manager-web</module>
+	</modules>
+
+	<build>
+		<!-- 配置插件 -->
+		<plugins>
+			<!-- 配置tomcat插件 -->
+			 <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                	<url>http://localhost:8080/manager/text</url> <!-- tomcat管理路径 -->
+                    <uriEncoding>UTF-8</uriEncoding>
+                    <server>Tomcat7</server>
+                    <username>root</username>
+					<password>password</password>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
+</project>

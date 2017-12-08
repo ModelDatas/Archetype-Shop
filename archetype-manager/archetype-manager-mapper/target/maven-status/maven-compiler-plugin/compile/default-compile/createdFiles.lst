@@ -1,0 +1,11 @@
+com\archetype\mapper\TbContentCategoryMapper.class
+com\archetype\mapper\TbItemCatMapper.class
+com\archetype\mapper\TbOrderItemMapper.class
+com\archetype\mapper\TbOrderShippingMapper.class
+com\archetype\mapper\TbContentMapper.class
+com\archetype\mapper\TbOrderMapper.class
+com\archetype\mapper\TbItemMapper.class
+com\archetype\mapper\TbItemDescMapper.class
+com\archetype\mapper\TbItemParamMapper.class
+com\archetype\mapper\TbItemParamItemMapper.class
+com\archetype\mapper\TbUserMapper.class
