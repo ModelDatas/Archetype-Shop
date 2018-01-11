@@ -34,6 +34,7 @@
                 <configuration>
                 	<url>http://localhost:8080/manager/text</url> <!-- tomcat管理路径 -->
                     <uriEncoding>UTF-8</uriEncoding>
+                    <path>/</path>
                     <server>Tomcat7</server>
                     <username>root</username>
 					<password>password</password>

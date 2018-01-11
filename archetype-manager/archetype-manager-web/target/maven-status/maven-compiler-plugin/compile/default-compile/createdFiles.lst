@@ -1,4 +1,5 @@
 com\archetype\controller\PageController.class
 com\archetype\controller\PictureController.class
+com\archetype\controller\ItemParamController.class
 com\archetype\controller\ItemCatController.class
 com\archetype\controller\ItemController.class
