@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/java/cn/com/webservice/cxf/server/WeatherInterface.java=UTF-8
+encoding//src/main/java/cn/com/webservice/cxf/server/WeatherInterfaceService.java=UTF-8
+encoding//src/main/java/cn/com/webservice/cxf/server/WeatherInterfaceServiceLocator.java=UTF-8
+encoding//src/main/java/cn/com/webservice/cxf/server/WeatherInterfaceServiceSoapBindingStub.java=UTF-8
